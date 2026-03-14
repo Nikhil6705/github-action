@@ -1,0 +1,13 @@
+name: test
+on: 
+   push:
+     branch: [main]
+jobs: 
+  code_checkout:
+    steps: 
+      -name: git code
+      runs_on: ubuntu
+      run: echo "Hello World"
+      run: |
+      echo "hi"
+      echo "bye"       
